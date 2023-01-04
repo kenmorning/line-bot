@@ -51,7 +51,7 @@ def handle_message(event):
             sticker_message)
         return # 回傳空值，不執行下面
 
-    if msg in ['hi', 'Hi'] # 用清單檢查
+    if msg in ['hi', 'Hi']: # 用清單檢查
         r = '嗨'
     elif msg == '你吃飯了嗎':
         r = '還沒'
