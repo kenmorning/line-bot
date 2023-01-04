@@ -37,7 +37,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-     msg = event.message.text 
+    msg = event.message.text 
     r = '很抱歉，你說什麼'
     
     if '給我貼圖' in msg:
